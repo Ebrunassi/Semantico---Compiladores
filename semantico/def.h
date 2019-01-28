@@ -1,0 +1,37 @@
+#ifndef DEF_H
+#define DEF_H
+//Includes:
+
+//Defines:
+
+/*	Structs IDs	*/
+#define ID_NODE 1
+#define ID_COMMAND_WHILE 2
+#define ID_COMMAND_DO 3
+#define ID_COMMAND_FOR_1 4
+#define ID_COMMAND_FOR_2 5
+#define ID_COMMAND_EXIT 6
+#define ID_COMMAND_RETURN 7
+#define ID_COMMAND_IF 8
+#define ID_COMMAND_IF_ELSE 9
+#define ID_COMMAND_PRINTF_1 10
+#define ID_COMMAND_PRINTF_2 11
+#define ID_COMMAND_SCANF 12
+#define ID_EXPRESSION 13
+#define ID_NULL_CMD 14
+#define ID_VARIABLE 15
+#define ID_VARIABLE_ARRAY 16
+#define ID_VARIABLE_POINTER 17
+#define ID_VARIABLE_POINTER_ARRAY 18
+#define ID_FUNCTION 19
+#define ID_FUNCTION_POINTER 20
+#define ID_CONS_DEFINE 21
+#define ID_FUNCTION_CALL 22
+
+/*	AST types	*/
+#define AST_UNARY_EXPRESSION 1000000
+#define AST_POSTFIX_EXPRESSION 1000001
+#define AST_POINTER 1000002
+#define AST_CAST 1000003
+
+#endif
